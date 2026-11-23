@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Architecture",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/architecture",
+    "download_url": "https://modelcontextprotocol.io/specification/2025-11-25/architecture.md",
+    "version": "2025-11-25",
+    "file": "raw/articles/architecture.md",
+    "sha256": "a3edad22d0b49abbd8c6033d4f11bcd84205b99f626b645a3876b6187a43e03e",
+    "characters": 5904,
+    "retrieved_at": "2026-11-23T10:56:22.132945+00:00",
+    "elapsed_seconds": 0.184,
+    "status": "accepted",
+    "source_id": 1
+  },
+  {
+    "title": "Tools",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+    "download_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools.md",
+    "version": "2025-11-25",
+    "file": "raw/articles/server-tools.md",
+    "sha256": "b0f76ef36804c096f98da2cae2fb5367c75cc1fe075d9259cb4a1424b3278f48",
+    "characters": 14324,
+    "retrieved_at": "2026-11-23T10:56:22.115481+00:00",
+    "elapsed_seconds": 0.166,
+    "status": "accepted",
+    "source_id": 2
+  },
+  {
+    "title": "Resources",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/resources",
+    "download_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/resources.md",
+    "version": "2025-11-25",
+    "file": "raw/articles/server-resources.md",
+    "sha256": "bfb8fd0e7f2874f22b3dbd484c68e3f9719ba6a08433e9ba1deb5c0bd8ee2cb4",
+    "characters": 10222,
+    "retrieved_at": "2026-11-23T10:56:22.110953+00:00",
+    "elapsed_seconds": 0.161,
+    "status": "accepted",
+    "source_id": 3
+  },
+  {
+    "title": "Prompts",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/prompts",
+    "download_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/prompts.md",
+    "version": "2025-11-25",
+    "file": "raw/articles/server-prompts.md",
+    "sha256": "2950e3dbb10223d2b328c22e47b897f2cc92a12565ff685cfdd090ab3e28dcfd",
+    "characters": 7268,
+    "retrieved_at": "2026-11-23T10:56:22.146894+00:00",
+    "elapsed_seconds": 0.197,
+    "status": "accepted",
+    "source_id": 4
+  },
+  {
+    "title": "Lifecycle",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+    "download_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle.md",
+    "version": "2025-11-25",
+    "file": "raw/articles/basic-lifecycle.md",
+    "sha256": "8b0528fc945468a000f12163af237cc34c2a0142c92c47134c7a82d5a884a51c",
+    "characters": 9714,
+    "retrieved_at": "2026-11-23T10:56:22.241234+00:00",
+    "elapsed_seconds": 0.13,
+    "status": "accepted",
+    "source_id": 5
+  },
+  {
+    "title": "Authorization",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
+    "download_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization.md",
+    "version": "2025-11-25",
+    "file": "raw/articles/basic-authorization.md",
+    "sha256": "06a6771b789b3fef99f1218cb405de8eb85618d5b24b214bc3ca7b6bb30e3cf3",
+    "characters": 41561,
+    "retrieved_at": "2026-11-23T10:56:22.244959+00:00",
+    "elapsed_seconds": 0.129,
+    "status": "accepted",
+    "source_id": 6
+  },
+  {
+    "title": "Security Best Practices",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/security_best_practices",
+    "download_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/security_best_practices.md",
+    "version": "2025-11-25",
+    "file": "raw/articles/basic-security_best_practices.md",
+    "sha256": "c144746562fc833b964b0c497f5b0aaa39a918946563d87c828d95921bb02784",
+    "characters": 37387,
+    "retrieved_at": "2026-11-23T10:56:22.321476+00:00",
+    "elapsed_seconds": 0.188,
+    "status": "accepted",
+    "source_id": 7
+  }
+]

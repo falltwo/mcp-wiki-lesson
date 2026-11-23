@@ -1,0 +1,16 @@
+[
+ {"id":"why-mcp","title":"AI 怎麼真的查資料？","eyebrow":"MCP 入門","claims":["definition"],"kind":"cover","note":"用一個圖書館開放時間的教學情境，分清模型、應用與工具。"},
+ {"id":"connection","title":"先把外部能力接進應用","eyebrow":"01 · 解決的問題","claims":["integration"],"kind":"standard","note":"MCP整理連接方式；要不要呼叫、怎麼處理結果，仍是應用的工作。"},
+ {"id":"roles","title":"三個角色，各負其責","eyebrow":"02 · 架構","claims":["host","client","server"],"kind":"roles"},
+ {"id":"primitives","title":"執行操作、提供資料、套用模板","eyebrow":"03 · 三種用途","claims":["tool-schema","resources","prompts"],"kind":"primitives"},
+ {"id":"tools","title":"先看工具清單，再帶參數呼叫","eyebrow":"04 · Tools","claims":["tool-schema","tool-control"],"kind":"standard"},
+ {"id":"initialize","title":"不是連上就能用所有功能","eyebrow":"05 · 能力協商","claims":["handshake","capabilities"],"kind":"standard"},
+ {"id":"walkthrough","title":"走一次工具呼叫流程","eyebrow":"06 · 互動示意","claims":["handshake","tool-schema","tool-result"],"kind":"simulation"},
+ {"id":"distinction","title":"同一個情境，可以提供不同介面","eyebrow":"07 · 例子不等於規定","claims":["primitive-distinction"],"kind":"example","note":"假設：開館時間表可當Resource，查某日時間可做成Tool，行程整理可做成Prompt模板；這是本作業的設計例子。"},
+ {"id":"human-control","title":"模型想呼叫，不等於可以執行","eyebrow":"08 · 應用的責任","claims":["tool-control","least-privilege"],"kind":"standard"},
+ {"id":"auth","title":"HTTP與STDIO，授權方式不同","eyebrow":"09 · Authorization","claims":["auth-scope","stdio-scope"],"kind":"standard"},
+ {"id":"security","title":"MCP不是安全保證書","eyebrow":"10 · 信任邊界","claims":["token-boundary","conversation-boundary"],"kind":"standard"},
+ {"id":"quiz","title":"換你判斷這三件事","eyebrow":"11 · 小測驗","claims":["client","resources","prompts","auth-scope","tool-control","least-privilege"],"kind":"quiz"},
+ {"id":"takeaway","title":"先問是哪個角色，再問有沒有權限","eyebrow":"12 · 回到起點","claims":["definition","server","least-privilege"],"kind":"standard","note":"看一個MCP整合時，先找Host、Client、Server，再確認能力與權限；不要只看它宣稱接了多少工具。"},
+ {"id":"sources","title":"回到Wiki與官方文件核對","eyebrow":"來源與版本","claims":[],"kind":"sources","note":"此教學固定採2025-11-25規格版，不宣稱為最新版本。Wiki與來源對照可直接切換查看。"}
+]

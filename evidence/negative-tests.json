@@ -1,0 +1,66 @@
+{
+  "kind": "controlled negative tests; not observed source failures",
+  "cases": 9,
+  "blocked": 9,
+  "by_node": {
+    "wiki_check": 6,
+    "source_check": 2,
+    "outline_check": 1
+  },
+  "details": [
+    {
+      "case": "unknown_source",
+      "injected": true,
+      "blocked": true,
+      "node": "wiki_check"
+    },
+    {
+      "case": "too_few_sources",
+      "injected": true,
+      "blocked": true,
+      "node": "source_check"
+    },
+    {
+      "case": "missing_sources",
+      "injected": true,
+      "blocked": true,
+      "node": "wiki_check"
+    },
+    {
+      "case": "unknown_claim",
+      "injected": true,
+      "blocked": true,
+      "node": "outline_check"
+    },
+    {
+      "case": "broken_link",
+      "injected": true,
+      "blocked": true,
+      "node": "wiki_check"
+    },
+    {
+      "case": "unsafe_link",
+      "injected": true,
+      "blocked": true,
+      "node": "wiki_check"
+    },
+    {
+      "case": "mixed_version",
+      "injected": true,
+      "blocked": true,
+      "node": "source_check"
+    },
+    {
+      "case": "empty_wiki",
+      "injected": true,
+      "blocked": true,
+      "node": "wiki_check"
+    },
+    {
+      "case": "duplicate_claim",
+      "injected": true,
+      "blocked": true,
+      "node": "wiki_check"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "reviewer_model": "gpt-6.1-sol",
+  "delegation_id": "deleg_2cefc01b",
+  "reviewed": "initial Wiki/HTML draft, 7 sources and 18 claims",
+  "blocking": false,
+  "findings": [
+    {
+      "id": 1,
+      "issue": "token prohibition too narrow",
+      "fix": "separate incoming audience validation and separate downstream tokens",
+      "verified": "official authorization lines688-694 and updated Wiki"
+    },
+    {
+      "id": 2,
+      "issue": "HTTP versus location conflation",
+      "fix": "HTTP versus STDIO title; clarify local HTTP and STDIO meaning",
+      "verified": "official security lines686-694, Wiki and browser title"
+    },
+    {
+      "id": 3,
+      "issue": "server-side input/access validation omitted",
+      "fix": "add Server responsibility and valid weekday values",
+      "verified": "official tools security section and updated simulation/Wiki"
+    },
+    {
+      "id": 4,
+      "issue": "response envelope omitted",
+      "fix": "full JSON-RPC response id3 and result",
+      "verified": "real browser JSON.parse assertion true"
+    },
+    {
+      "id": 5,
+      "issue": "quiz refs unused",
+      "fix": "render each q.refs and extend mapped claims",
+      "verified": "all3 quiz source counts match; map source ids1,2,3,4,6,7"
+    }
+  ],
+  "limitation": "revised version parent-verified, not re-reviewed by separate agent; no real MCP service or human comprehension test"
+}

@@ -1,0 +1,239 @@
+[
+  {
+    "slide": 1,
+    "id": "why-mcp",
+    "title": "AI 怎麼真的查資料？",
+    "claims": [
+      "definition"
+    ],
+    "wiki_pages": [
+      "mcp-overview"
+    ],
+    "sources": [
+      1
+    ]
+  },
+  {
+    "slide": 2,
+    "id": "connection",
+    "title": "先把外部能力接進應用",
+    "claims": [
+      "integration"
+    ],
+    "wiki_pages": [
+      "mcp-overview"
+    ],
+    "sources": [
+      1,
+      5
+    ]
+  },
+  {
+    "slide": 3,
+    "id": "roles",
+    "title": "三個角色，各負其責",
+    "claims": [
+      "host",
+      "client",
+      "server"
+    ],
+    "wiki_pages": [
+      "architecture"
+    ],
+    "sources": [
+      1
+    ]
+  },
+  {
+    "slide": 4,
+    "id": "primitives",
+    "title": "執行操作、提供資料、套用模板",
+    "claims": [
+      "tool-schema",
+      "resources",
+      "prompts"
+    ],
+    "wiki_pages": [
+      "resources-prompts",
+      "tools"
+    ],
+    "sources": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "slide": 5,
+    "id": "tools",
+    "title": "先看工具清單，再帶參數呼叫",
+    "claims": [
+      "tool-schema",
+      "tool-control"
+    ],
+    "wiki_pages": [
+      "tools"
+    ],
+    "sources": [
+      2
+    ]
+  },
+  {
+    "slide": 6,
+    "id": "initialize",
+    "title": "不是連上就能用所有功能",
+    "claims": [
+      "handshake",
+      "capabilities"
+    ],
+    "wiki_pages": [
+      "lifecycle"
+    ],
+    "sources": [
+      1,
+      5
+    ]
+  },
+  {
+    "slide": 7,
+    "id": "walkthrough",
+    "title": "走一次工具呼叫流程",
+    "claims": [
+      "handshake",
+      "tool-schema",
+      "tool-result"
+    ],
+    "wiki_pages": [
+      "lifecycle",
+      "tools"
+    ],
+    "sources": [
+      2,
+      5
+    ]
+  },
+  {
+    "slide": 8,
+    "id": "distinction",
+    "title": "同一個情境，可以提供不同介面",
+    "claims": [
+      "primitive-distinction"
+    ],
+    "wiki_pages": [
+      "resources-prompts"
+    ],
+    "sources": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "slide": 9,
+    "id": "human-control",
+    "title": "模型想呼叫，不等於可以執行",
+    "claims": [
+      "tool-control",
+      "least-privilege"
+    ],
+    "wiki_pages": [
+      "tools",
+      "trust-boundaries"
+    ],
+    "sources": [
+      1,
+      2,
+      7
+    ]
+  },
+  {
+    "slide": 10,
+    "id": "auth",
+    "title": "HTTP與STDIO，授權方式不同",
+    "claims": [
+      "auth-scope",
+      "stdio-scope"
+    ],
+    "wiki_pages": [
+      "authorization"
+    ],
+    "sources": [
+      6,
+      7
+    ]
+  },
+  {
+    "slide": 11,
+    "id": "security",
+    "title": "MCP不是安全保證書",
+    "claims": [
+      "token-boundary",
+      "conversation-boundary"
+    ],
+    "wiki_pages": [
+      "trust-boundaries"
+    ],
+    "sources": [
+      1,
+      6,
+      7
+    ]
+  },
+  {
+    "slide": 12,
+    "id": "quiz",
+    "title": "換你判斷這三件事",
+    "claims": [
+      "client",
+      "resources",
+      "prompts",
+      "auth-scope",
+      "tool-control",
+      "least-privilege"
+    ],
+    "wiki_pages": [
+      "architecture",
+      "authorization",
+      "resources-prompts",
+      "tools",
+      "trust-boundaries"
+    ],
+    "sources": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "slide": 13,
+    "id": "takeaway",
+    "title": "先問是哪個角色，再問有沒有權限",
+    "claims": [
+      "definition",
+      "server",
+      "least-privilege"
+    ],
+    "wiki_pages": [
+      "architecture",
+      "mcp-overview",
+      "trust-boundaries"
+    ],
+    "sources": [
+      1,
+      2,
+      7
+    ]
+  },
+  {
+    "slide": 14,
+    "id": "sources",
+    "title": "回到Wiki與官方文件核對",
+    "claims": [],
+    "wiki_pages": [],
+    "sources": []
+  }
+]

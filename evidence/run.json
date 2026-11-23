@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-11-23T11:42:23.091644+00:00",
+  "source_documents": 7,
+  "wiki_concepts": 7,
+  "verified_claim_references": 18,
+  "slides": 14,
+  "structural_errors": 0,
+  "semantic_check": "requires independent review; not established by Python",
+  "generation": "LLM-authored Wiki and outline; deterministic Python rendering",
+  "interaction": "front-end simulation only; no MCP or LLM network calls"
+}
